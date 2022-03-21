@@ -30,23 +30,32 @@ body{
     height: 250px;
     border-radius: 80px;
     color: white;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /* color: blue;
     font-size: 30px; */
 }
 
-.grilled{
-    background-image: url(https://www.kentuckytourism.com/sites/default/files/inline-images/Alexander_Copper%20and%20Kings_Appetizer.jpg);
+.breakfast{
+    background-image: url(https://static.onecms.io/wp-content/uploads/sites/9/2020/01/cannabis-infused-brioche-french-toast-FT-RECIPE0120.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     
 }
 
-.salad{
+.lunch{
     background-image: url(https://images.unsplash.com/photo-1547496502-affa22d38842?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2FsYWR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
 }
+
+.dinner{
+    background-image: url(https://minimalistbaker.com/wp-content/uploads/2017/07/DELICIOUS-Roasted-Cauliflower-Tacos-with-Adobo-Romesco-30-min-healthy-SO-flavorful-vegan-glutenfree-plantbased-cauliflower-tacos-recipe-3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
 
 
 .align{
@@ -57,33 +66,47 @@ body{
 }
 
 .special{
-    margin-top: 8px;
     font-size: 18px;
-    background-color: blue;
+    background-color: #8F3191;
     width: 153px;
     height: 37px;
-
-
-
-    position: absolute;
-    left: 50%;
-    top: 120%;
-    transform: translate(-50%, -50%);
 }
 
-.footer{
+.special {
+    border: 1px solid blue;
+    border-radius: 80px;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    }
+
+.order{
+    display: flex;
+    justify-content: center;
+}
+       
+.foot{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 90px;
+    margin-top: 30px;
     bottom: 0;
     font-size: large;
+    height: 40px;
+} 
 
- 
-
-
+.items{
+    list-style-type: none;
 }
 
-footer a{
-    text-decoration: none;
+.text{
     color: black;
 }
+
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    background-color: yellow;
+}
+
+
