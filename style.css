@@ -54,6 +54,16 @@ body{
     background-size: cover;
 }
 
+.render{
+    color: white;
+    text-decoration: none;
+    background-color: none;
+}
+
+.render a :hover{
+    color: black;
+}
+
 
 
 
@@ -72,10 +82,14 @@ body{
     height: 37px;
 }
 
+.container a:hover{
+    color: teal;
+}
+
 .container:hover{
     color: teal;
-
 }
+
 button:hover{
     background-color: teal;
     width: 200px;
@@ -118,6 +132,6 @@ button:hover{
 a:link{
     text-decoration: none;
 }
-a:hover{
+.foot a:hover{
     background-color: yellow;
 }
