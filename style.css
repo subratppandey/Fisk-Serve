@@ -31,8 +31,7 @@ body{
     border-radius: 80px;
     color: white;
     box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    /* color: blue;
-    font-size: 30px; */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .breakfast{
@@ -62,7 +61,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .special{
@@ -71,7 +70,11 @@ body{
     width: 153px;
     height: 37px;
 }
-
+button:hover{
+    background-color: red;
+    width: 200px;
+    font-size: 25px;
+}
 .special {
     border: 1px solid blue;
     border-radius: 80px;
@@ -84,6 +87,7 @@ body{
     display: flex;
     justify-content: center;
 }
+
        
 .foot{
     display: flex;
