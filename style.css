@@ -36,22 +36,22 @@ body{
 
 .breakfast{
     background-image: url(https://static.onecms.io/wp-content/uploads/sites/9/2020/01/cannabis-infused-brioche-french-toast-FT-RECIPE0120.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
     
 }
 
 .lunch{
-    background-image: url(https://images.unsplash.com/photo-1547496502-affa22d38842?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2FsYWR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-image: url(https://images.unsplash.com/photo-1561758033-d89a9ad46330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjB8fGx1bmNofGVufDB8fDB8YmxhY2t8&auto=format&fit=crop&w=500&q=60);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
 
 }
 
 .dinner{
     background-image: url(https://minimalistbaker.com/wp-content/uploads/2017/07/DELICIOUS-Roasted-Cauliflower-Tacos-with-Adobo-Romesco-30-min-healthy-SO-flavorful-vegan-glutenfree-plantbased-cauliflower-tacos-recipe-3.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 
@@ -61,7 +61,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 60px;
 }
 
 .special{
@@ -70,8 +71,13 @@ body{
     width: 153px;
     height: 37px;
 }
+
+.container:hover{
+    color: teal;
+
+}
 button:hover{
-    background-color: red;
+    background-color: teal;
     width: 200px;
     font-size: 25px;
 }
@@ -104,6 +110,9 @@ button:hover{
 
 .text{
     color: black;
+    font-family: "Times New Roman", Times, serif;
+    ;
+
 }
 
 a:link{
