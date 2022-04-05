@@ -1,9 +1,9 @@
 body{
     margin: 0;
     background-color: rgb(240,242,245);
-    background-image: url(https://www.fisk.edu/wp-content/uploads/2020/04/DSC_1671-edited-Pixlr.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* background-image: url(https://www.fisk.edu/wp-content/uploads/2020/04/DSC_1671-edited-Pixlr.jpg); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
 }
 
 .logo{
