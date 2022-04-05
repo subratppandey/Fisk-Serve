@@ -7,7 +7,9 @@ fetch("https://raw.githubusercontent.com/subratppandey/JSON-data-file/master/dat
     // foodfinder(data);
 });
 
-
+const urlSearchParams = new URLSearchParams(window.location.search);
+const params = Object.fromEntries(urlSearchParams.entries());
+console.log({params});
 
 function updatedata(data) {
     
@@ -34,13 +36,14 @@ function updatedata(data) {
         const cardTemplate = 
         // console.log(value.Type);
             `<div class="col">
-                <div class="card">
+                <div class="card"  data-foodname="${value}" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <a href=""><img src="${value.image} "
                         class="card-img-top" alt="..."></a>
                     <div class="card-body">
                         <h5 class="card-title">${value.foodName}</h5>
                         <p class="card-text">${value.description}</p>
                     </div>
+                    input
                 </div>
             </div>`;
          allCardsDom +=cardTemplate;
