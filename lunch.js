@@ -12,7 +12,7 @@ const params = Object.fromEntries(urlSearchParams.entries());
 // console.log({params});\
 console.log(params);
 console.log(params.type);
-console.log(typeof(params.type));
+
 
 function updatedata(data) {
     
