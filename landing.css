@@ -1,184 +1,4 @@
-/* body{
-    margin: 0;
-    background-image: url(https://images.unsplash.com/photo-1533628635777-112b2239b1c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZsb3dlciUyMGJhY2tncm91bmQlMjBpbWFlZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
-    background-repeat: no-repeat;
-    background-size: cover;
 
-}
-
-.main{
-    display: flex ;
-    flex-direction: column;
-}
-
-#cover{
-    height: 500px;
-    width: 100%;
-    background-image: url(https://popmenucloud.com/cdn-cgi/image/width%3D1200%2Cheight%3D1200%2Cfit%3Dscale-down%2Cformat%3Dauto%2Cquality%3D60/wfyzexka/ddaccffd-6ecd-4832-9c0d-ea8901b33a3f.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.meals{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
-  
-}
-
-.container{
-    margin-top: 30px;
-}
-
-
-
-
-.meal{
-    height: 40px;
-    background-color: aqua;
-    width: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid rgb(184, 26, 105);
-    border-radius: 25px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 25px;
-}
-
-.meal:hover{
-    background-color: rgb(184, 26, 105);
-    transform: rotate(-3deg);
-    color: white;
-}
-
-.row{
-    display: flex;
-    flex-direction: row;
-}
-
-
-
-
-
-#first{
-    background-image: url(https://images.unsplash.com/photo-1571091655789-405eb7a3a3a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGJ1cmdlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-}
-
-#first:hover {
-    height: 395px;
-  }
-
-#second:hover {
-height: 395px;
-}
-
-#third:hover {
-height: 395px;
-}
-#fourth:hover {
-    height: 395px;
-  }
-
-#fifth:hover {
-height: 395px;
-}
-#sixth:hover {
-    height: 395px;
-  }
-
-#second{
-    background-image: url(https://images.unsplash.com/photo-1598679253544-2c97992403ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZnJpZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:left;
-
-}
-
-#third{
-    background-image: url(https://images.unsplash.com/photo-1615870216519-2f9fa575fa5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHRhY29zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-}
-
-#fourth{
-    background-image: url(https://images.unsplash.com/photo-1546171753-97d7676e4602?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGRyaW5rc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-}
-
-#fifth{
-    background-image: url(https://images.unsplash.com/photo-1523387364157-5ab552d1d0ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZHJpbmslMjBzZWN0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-}
-
-#sixth{
-    background-image: url(https://images.unsplash.com/photo-1611464320499-e655ef77f4f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fGJldmVyYWdlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:bottom right;
-}
-
-
-
-/* .p-3{
-    height: 300px;
-} */
-/* 
-.footer{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
- 
-}
-
-.foot{
-    height: 40px;
-    width: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Oswald', sans-serif;
-    color: black;
-}
-
-
-
-
-.col{
-    background-color: red;
-    margin: 20px;
-    height: 400px;
-}
-
-.foot:hover{
-    color:white;
-}
-
-#one:hover{
-    background-color: #1A8AAD;
-}
-
-#two:hover{
-    background-color: rgb(255, 0, 179);
-}
-#three:hover{
-    background-color: rgb(255, 196, 0);
-}
-#four:hover{
-    background-color: rgb(255, 0, 34);
-}
-
- */
 
  body{
     margin: 0;
@@ -217,14 +37,24 @@ height: 395px;
 .container{
     margin-top: 30px;
 }
+.container a{
+  text-decoration: none;
+  color:black;
+}
+.container a:hover{
+  color:white;
+}
 
 .subcontainer{
     display: flex;
     flex-direction: column;
 }
 
+.input-group{
+  margin-left:600px;
+}
 
-
+/* for button */
 
 
 
@@ -476,11 +306,20 @@ height: 395px;
 
 
 .col{
-    background-color: red;
-    margin: 20px;
+    
+    margin:20px;
     height: 400px;
 }
 
+/* making the responsive images equal size */
+#resultant{
+  
+  margin-left:100px;
+}
+#resultant img{
+  height: 250px;
+
+}
 .foot:hover{
     color:white;
 }

@@ -3,28 +3,27 @@ const realContainer = document.querySelector("#resultant");
 fetch("https://raw.githubusercontent.com/subratppandey/JSON-data-file/master/data.json")
 .then(response => response.json())
 .then((data) => {
+    
     updatedata(data);
-    // foodfinder(data);
+   
 });
 
-const urlSearchParams = new URLSearchParams(window.location.search);
-const params = Object.fromEntries(urlSearchParams.entries());
-// console.log({params});\
-console.log(params);
-console.log(params.type);
+
 
 
 function updatedata(data) {
+    console.log(data);
+    console.log(data.length)
+    var newData = []
+    for(let i=0; i <6;i++){
+    randomNumber = Math.floor(Math.random() * data.length);
+    newData.push(data[randomNumber]);
+    }
+    console.log(newData);
     
     let allCardsDom = '';
-    data.forEach((value)=>{
-        // console.log(params.type);
-        // console.log(value.Type);
-        // console.log(value.Type.includes(params.type));
-
-        if (value.Type.includes(params.type)){
-        console.log(value.Type);
-        const cardTemplate = 
+    newData.forEach((value)=>{
+       const cardTemplate = 
         // console.log(value.Type);
             `<div class="col">
                 <div class="card"  data-foodname="${value}" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -34,12 +33,12 @@ function updatedata(data) {
                         <h5 class="card-title">${value.foodName}</h5>
                         <p class="card-text">${value.description}</p>
                     </div>
-                    input
+                   
                 </div>
             </div>`;
          allCardsDom +=cardTemplate;
-         console.log(66);
-        };
+        
     });
     realContainer.innerHTML = allCardsDom;
 }
+
