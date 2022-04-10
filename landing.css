@@ -20,20 +20,41 @@ input{
   border: 3px solid rgb(218, 23, 175);
   border-radius: 20px;
 }
+#button{
+  width: 130px;
+ 
+  border-radius: 50px solid red;
+}
+
+#button :hover{
+  width: 155px;
+  border-radius: 50px solid red;
+}
 button{
   width: 130px;
-  border-radius: 20px;
+  height: 60px;
+  border: none;
 }
-button span{
-  color:black;
-  font-size: 25px;
-  border-radius: 20px;
+button:hover{
+  background-color: crimson;
 }
+button a:hover{
+
+  color: white;
+  text-transform: uppercase;
+} 
+
+button a{
+  font-size: 30px;
+  font-family: 'Permanent Marker', cursive;
+  
+}
+
 
 .search{
   display: flex;
   flex-direction: row;
-  margin-left: 20%;
+  margin-left: 25%;
 
 
 }
@@ -59,6 +80,28 @@ button span{
 #resultant{
   display: flex;
   flex-direction: row;
+
+
+}
+
+
+.button{
+  color: black;
+  text-decoration: none;
+  
+}
+
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 30px;
 }
 
 
@@ -381,23 +424,12 @@ height: 395px;
 
 
 
+
+
 @media only screen and (max-width: 600px) {
 
 
-    .hide{
-        display: none;
-    }
-
-
-    .show2{
-        display: flexbox;
-        flex-direction: row;
-
-    }
-
-
-
-
+  
    
 
   }

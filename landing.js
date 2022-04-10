@@ -38,14 +38,14 @@ function updatedata(data) {
     newData.forEach((value)=>{
        const cardTemplate = 
        
-            `<div class="col">
+            `
                 <div class="card"  data-foodname="${value}" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <a href="fooddetail.html?type=${value.foodName}"><img src="${value.image} "
                         class="card-img-top" alt="..."></a>
                    
                    
                 </div>
-            </div>`;
+            `;
          allCardsDom +=cardTemplate;
         
     });

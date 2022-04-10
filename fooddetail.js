@@ -33,11 +33,12 @@ function updatedata(data) {
             <h4>${value.foodName}</h4>
         </div>
         <div class = "contain">
-            <h4>${value.description}</h4>
+            <h6>${value.description}</h6>
         </div>
 
-        <div class = "contain">
-            <h4>Nutritional values:</h4>
+        <div class = "contains">
+            <h4>Nutritional values</h4>
+        </div>
 
             <table style="width:100%">
                 <tr>
