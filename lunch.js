@@ -14,6 +14,8 @@ console.log(params);
 console.log(params.type);
 
 
+
+
 function updatedata(data) {
     
     let allCardsDom = '';
