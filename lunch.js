@@ -1,33 +1,25 @@
 const realContainer = document.querySelector("#resultant");
-// console.log(realContainer);
+const button = document.querySelector("#button");
+
+
 fetch("https://raw.githubusercontent.com/subratppandey/JSON-data-file/master/data.json")
 .then(response => response.json())
 .then((data) => {
     updatedata(data);
-    // foodfinder(data);
+    
 });
 
+//function to get a variable from the html page.
 const urlSearchParams = new URLSearchParams(window.location.search);
 const params = Object.fromEntries(urlSearchParams.entries());
-// console.log({params});\
-console.log(params);
-console.log(params.type);
 
-
-
-
+//function to filter the Breakfast, Launch and Dinner feature.
 function updatedata(data) {
-    
     let allCardsDom = '';
     data.forEach((value)=>{
-        // console.log(params.type);
-        // console.log(value.Type);
-        // console.log(value.Type.includes(params.type));
-
-        if (value.Type.includes(params.type)){
-        console.log(value.Type);
-        const cardTemplate = 
-        // console.log(value.Type);
+       if (value.Type.includes(params.type)){
+       const cardTemplate = 
+      
             `<div class="col">
                 <div class="card"  data-foodname="${value}" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <a href="fooddetail.html?type=${value.foodName}"><img src="${value.image} "
@@ -40,7 +32,7 @@ function updatedata(data) {
                 </div>
             </div>`;
          allCardsDom +=cardTemplate;
-         console.log(66);
+        
         };
     });
     realContainer.innerHTML = allCardsDom;

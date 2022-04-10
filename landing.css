@@ -341,6 +341,13 @@ height: 395px;
     height: 400px;
 }
 
+/* .col img{
+  width:100px;
+  height:300px;
+} */
+
+
+
 /* making the responsive images equal size */
 #resultant{
   
@@ -350,6 +357,10 @@ height: 395px;
   height: 250px;
 
 }
+
+
+
+
 .foot:hover{
     color:white;
 }
