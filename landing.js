@@ -29,10 +29,7 @@ function updatedata(data) {
                 <div class="card"  data-foodname="${value}" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <a href="fooddetail.html?type=${value.foodName}"><img src="${value.image} "
                         class="card-img-top" alt="..."></a>
-                    <div class="card-body">
-                        <h5 class="card-title">${value.foodName}</h5>
-                        <p class="card-text">${value.description}</p>
-                    </div>
+                   
                    
                 </div>
             </div>`;
@@ -40,5 +37,12 @@ function updatedata(data) {
         
     });
     realContainer.innerHTML = allCardsDom;
+
 }
+
+
+ // <div class="card-body">
+                    //     <h5 class="card-title">${value.foodName}</h5>
+                    //     <p class="card-text">${value.description}</p>
+                    // </div>
 
