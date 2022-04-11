@@ -2,10 +2,11 @@
 
  body{
     margin: 0;
-    background-image: url(https://images.unsplash.com/photo-1533628635777-112b2239b1c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZsb3dlciUyMGJhY2tncm91bmQlMjBpbWFlZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60
+    /* background-color: #F0F2F5; */
+    /* background-image: url(https://images.unsplash.com/photo-1533628635777-112b2239b1c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZsb3dlciUyMGJhY2tncm91bmQlMjBpbWFlZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60
 );
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 
 }
 
@@ -22,7 +23,6 @@ input{
 }
 #button{
   width: 130px;
- 
   border-radius: 50px solid red;
 }
 
@@ -55,6 +55,7 @@ button a{
   display: flex;
   flex-direction: row;
   margin-left: 25%;
+  margin-top: 30px;
 
 
 }
@@ -134,7 +135,8 @@ button a{
 .deconstructed {
     position: relative;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 60px;
+    margin-bottom: 20px;;
     height: 50px;
     color: transparent;
     font-family: 'Permanent Marker', cursive;
@@ -249,8 +251,9 @@ button a{
 
 
 .meal{
-    height: 40px;
-    background-color: aqua;
+    height: 50px;
+    background-color: #20a0c783;
+    background-color: white;
     width: 150px;
     display: flex;
     align-items: center;
@@ -271,8 +274,6 @@ button a{
     display: flex;
     flex-direction: row;
 }
-
-
 
 
 
@@ -392,10 +393,11 @@ height: 395px;
 
 
 /* making the responsive images equal size */
-#resultant{
+/* #resultant{
   
   margin-left:100px;
-}
+} */
+
 #resultant img{
   height: 250px;
 
@@ -423,16 +425,28 @@ height: 395px;
 }
 
 
+#resultant {
+  display: flex;
+  justify-content: center;
+  /* row-gap: 35px; */
+  column-gap: 120px;
+ 
+
+}
 
 
 
-@media only screen and (max-width: 600px) {
+
+.meals{
+  margin-top: 60px;
+}
 
 
-  
-   
 
-  }
+
+
+
+
 
 
 

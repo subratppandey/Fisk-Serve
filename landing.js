@@ -35,24 +35,24 @@ function updatedata(data) {
     
     }
     
+    // <div class="card"  data-foodname="${value}" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    //     </div>
     
     let allCardsDom = '';
     newData.forEach((value)=>{
        const cardTemplate = 
        
-            `
-                <div class="card"  data-foodname="${value}" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            `       <div class = "name">
                     <a href="fooddetail.html?type=${value.foodName}"><img src="${value.image} "
                         class="card-img-top" alt="..."></a>
+                    </div>
+
                    
-                   
-                </div>
             `;
          allCardsDom +=cardTemplate;
         
     });
     realContainer.innerHTML = allCardsDom;
-
 }
 
 

@@ -35,11 +35,17 @@ function updatedata(data) {
         <div class = "contain">
             <h6>${value.description}</h6>
         </div>
+    
 
-        <div class = "contains">
-            <h4>Nutritional values</h4>
-        </div>
+        <div class = "try>
 
+            <div class = "contains">
+                <h4>Nutritional values</h4>
+            </div>
+
+
+        <div class = "table">
+          
             <table style="width:100%">
                 <tr>
                   <td>Protein</td>
@@ -57,6 +63,8 @@ function updatedata(data) {
                   <td>${value.nutritionalValue.sodium}</td>
                 </tr>
               </table>
+          
+        </div>
             
         </div>
     </div>`
