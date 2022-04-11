@@ -53,6 +53,10 @@ table, th, td {
    
   }
 
+h4{
+    text-align: center;
+}
+
 td{
     text-align: center;
 }
