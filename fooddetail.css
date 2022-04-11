@@ -1,0 +1,74 @@
+body{
+    margin-left  : 25%;
+    margin-right:25%;
+    background-image: url(https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHBsYWluJTIwZm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contains{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 300px;
+}
+
+h4{
+    font-family: 'Crete Round', serif;
+
+}
+h6{
+    font-family: 'Crete Round', serif;
+   
+
+}
+
+table, th, td {
+    border:3px solid black;
+    
+   
+  }
+
+h4{
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
+
+.contain{
+    margin-top: 15px;
+
+}
+
+.table{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}

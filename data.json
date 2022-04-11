@@ -1,0 +1,669 @@
+[
+    {
+        "foodName": "Regular Burger",
+        "image": "https://media.istockphoto.com/photos/juicy-hamburger-on-white-background-picture-id1206323282?k=20&m=1206323282&s=612x612&w=0&h=yatlq6BHRCCvoTzFZLSwaJc0O8Quct_tRPWtH0dj9Fc=",
+        "nutritionalValue": {
+            "calories": "720 kCal",
+            "totalFat": "38 gm",
+            "sodium": "1170 mg",
+            "carbohydrate": "45 gm",
+            "protein": "37 gm" 
+        },
+        "Type":[ 
+            "lunch", 
+            "dinner"],
+        "description": "We serve fresh, nutritious, and juicy burger without compromising the taste."
+        }, 
+
+        {
+            "foodName": "Cheese Burger",
+            "image":  "https://image.shutterstock.com/image-photo/tasty-appetizing-hamburger-cheeseburger-260nw-1053796058.jpg",
+            "nutritionalValue": {
+                "calories": "350 kCal",
+                "totalFat": "14 gm",
+                "sodium": "1170 mg",
+                "fiber": "14 gm",
+                "carbohydrate": "35 gm",
+                "protein": "17 gm" 
+            },
+            "Type":[
+                 "lunch", 
+                 "dinner"
+            ],
+            "description": "As cheesy as possible--delicious and tasty plain cheese burger."
+        },
+
+            {
+                "foodName": "Beef Burger",
+                "image": "https://www.eatthis.com/wp-content/uploads/sites/4//media/images/ext/520765216/classic-beef-burger.jpg?quality=82&strip=1",
+                "nutritionalValue": {
+                    "calories": "240 kCal",
+                    "totalFat": "17 gm",
+                    "cholestrol": "85 mg",
+                    "sodium": "90 mg",
+                    "potassium": "330 mg",
+                    "carbohydrate": "0 gm",
+                    "protein": "21 gm" 
+                },
+                "Type":[
+                     "lunch", 
+                     "dinner"
+                ],
+                "description": "Juicy beef burger. Add lettuce, cheese, tomato, onion, and veggies to enhance the taste."
+            },
+
+                {
+                    "foodName": "Chicken Burger",
+                    "image": "https://www.kitchensanctuary.com/wp-content/uploads/2019/08/Crispy-Chicken-Burger-square-FS-4518.jpg",
+                    "nutritionalValue": {
+                        "calories": "535 kCal",
+                        "totalFat": "20 gm",
+                        "cholestrol": "57 mg",
+                        "sodium": "1056 mg",
+                        "potassium": "382 mg",
+                        "carbohydrate": "57 gm",
+                        "sugar": "6.5 gm",
+                        "protein": "29 gm" 
+                    },
+                    "Type":[
+                         "lunch", 
+                         "dinner"
+                    ],
+                    "description": "Succulent chicken burger on white, brown buns. Ready to devour?"
+                },   
+
+                    {
+                        "foodName": "Turkey Burger",
+                        "image": "https://therecipecritic.com/wp-content/uploads/2019/05/turkey_burger1.jpg",
+                        "nutritionalValue": {
+                            "calories": "217 kCal",
+                            "totalFat": "12.16 gm",
+                            "cholestrol": "94 mg",
+                            "sodium": "400 mg",
+                            "sugars": "0 gm",
+                            "carbohydrate": "0 gm",
+                            "protein": "25.3 gm" 
+                        },
+                        "Type":[
+                             "lunch", 
+                             "dinner"
+                        ],
+                        "description": "Enjoy our turkey burger with cold drinks--a delight to your taste buds."
+                    },
+
+                        {
+                            "foodName": "Veggie Burger",
+                            "image": "https://therecipecritic.com/wp-content/uploads/2019/05/turkey_burger1.jpg",
+                            "nutritionalValue": {
+                                "calories": "124 kCal",
+                                "totalFat": "4.4 gm",
+                                "sodium": "398 mg",
+                                "sugars": "0.7 gm",
+                                "carbohydrate": "10 gm",
+                                "protein": "11 gm",
+                                "fiber": "3.4 gm",
+                                "phosphorus": "144 mg" 
+                            },
+                            "Type":[
+                                 "lunch", 
+                                 "dinner"
+                            ],
+                            "description": "Tasty and highly nutritious veggie burgers including onions, lettuce, cheese, etc."
+                        },
+
+        {
+        "foodName": "Regular Pizza",
+        "image": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395__480.jpg",
+        "nutritionalValue": {
+            "calories": "285 kCal",
+            "totalFat": "10.4 gm",
+            "sodium": "640 mg",
+            "carbohydrate": "35.6 gm",
+            "Fiber": "2.5 gm",
+            "protein": "12.2 gm" 
+        },
+    "Type": [
+            "lunch", 
+            "dinner"],
+    "description": "Come eat our hot & tasty pizza straight out of the oven and please your stomach."
+    },
+
+        {
+        "foodName": "Cheese Pizza",
+        "image": "https://media.istockphoto.com/photos/homemade-greasy-new-york-cheese-pizza-picture-id1004654554?k=20&m=1004654554&s=612x612&w=0&h=XhENahwzLz4CmHiTAEqYsYV2HhMMSTSt86Ri9z19Wqk=",
+        "nutritionalValue": {
+            "calories": "213 kCal",
+            "totalFat": "7.8 gm",
+            "cholestrol": "14 mg",
+            "sodium": "478 mg",
+            "potassium": "138 mg",
+            "carbohydrate": "27 gm",
+            "protein": "9.1 gm" 
+        },
+    "Type": [ 
+            "lunch", 
+            "dinner"],
+    "description": "Enjoy our cheese pizza and enjoy the taste you've never tasted."
+    },
+
+        {
+        "foodName": "Pepperoni Pizza",
+        "image": "https://cdn.vox-cdn.com/thumbor/d1OhyRkDvFdftKk63CcDAsZVzzQ=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/10235609/pepperoni.jpeg",
+        "nutritionalValue": {
+            "calories": "313 kCal",
+            "totalFat": "13 gm",
+            "cholestrol": "28 mg",
+            "sodium": "760 mg",
+            "potassium": "216 mg",
+            "carbohydrate": "35 gm",
+            "protein": "13 gm" 
+        },
+    "Type": [
+            "lunch", 
+            "dinner"],
+    "description": "Hot pepperoni pizza to go with cold beverages."
+    },
+
+        {
+        "foodName": "Veggie Pizza",
+        "image": "https://www.twopeasandtheirpod.com/wp-content/uploads/2021/03/Veggie-Pizza-8.jpg",
+        "nutritionalValue": {
+            "calories": "330 kCal",
+            "totalFat": "12 gm",
+            "cholestrol": "20 mg",
+            "sodium": "774 mg",
+            "potassium": "219 mg",
+            "carbohydrate": "41 gm",
+            "sugars": "4.7 gm",
+            "dietary fibers": "3.1 gm",
+            "protein": "14 gm" 
+        },
+    "Type": [ 
+            "lunch", 
+            "dinner"],
+    "description": "Vegetable pizza served with olives, greens, artichoke, tomatoes, red onions, etc."
+    },
+
+        {
+        "foodName": "Mushroom Pizza",
+        "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/12/20/0/FNK_Gluten-Free-Mushroom-Ricotta_Pizza_s4x3.jpg.rend.hgtvcom.616.462.suffix/1483737096931.jpeg",
+        "nutritionalValue": {
+            "calories": "268 kCal",
+            "totalFat": "9.7 gm",
+            "cholestrol": "17 mg",
+            "sodium": "594 mg",
+            "potassium": "247 mg",
+            "carbohydrate": "34 gm",
+            "sugars": "4.1 gm",
+            "dietary fibers": "2.6 gm",
+            "protein": "12 gm" 
+        },
+    "Type": [
+            "lunch", 
+            "dinner"],
+    "description": "We serve delicious mushroom pizza with fresh, tasty cheese and soft crust."
+    },
+
+        {
+        "foodName": "French Fries",
+        "image": "https://media.istockphoto.com/photos/diverse-keto-dishes-picture-id1280158821?b=1&k=20&m=1280158821&s=170667a&w=0&h=ibwKxBzWcygq6NMKO5FTD-3ljLvwM8E1WVevw7XSmlk=",
+        "nutritionalValue": {
+            "portionSize": "small",
+            "calories": "222 kCal",
+            "totalFat": "10 gm",
+            "sodium": "282 mg",
+            "carbohydrate": "29 gm",
+            "Fiber": "2 gm",
+            "protein": "2.8 gm" 
+        },
+    "Type":[
+            "lunch", 
+            "dinner"],
+    "description": "Soft and crispy fries served with ketchup, mayo, and other sauces."
+    },
+
+    {
+        "foodName": "Tacos",
+        "image": "https://media.istockphoto.com/photos/vegan-tacos-and-guacamole-served-in-tulum-mexico-closeup-picture-id1298809774?b=1&k=20&m=1298809774&s=170667a&w=0&h=gqrLORk4hAD5_F_UAmocW7r7gsq7JJRtdTPCCSmeHeA=",
+        "nutritionalValue": {
+            "calories": "210 kCal",
+            "totalFat": "9.9 gm",
+            "cholesterol": "26 mg",
+            "sodium": "571 mg",
+            "potassium": "164 mg",
+            "carbohydrate": "21 gm",
+            "dietaryFiber": "3 gm",
+            "sugars": "1.6 gm",
+            "protein": "9.4 gm"
+        },
+    "Type":[
+            "lunch", 
+            "dinner"],
+    "description": "Mixed tacos blended with guacemole, chipotle sauce, nachos, and peppers."
+    },
+
+    {
+        "foodName": "Fried Chicken",
+        "image": "https://media.istockphoto.com/photos/fried-chicken-picture-id494788722?k=20&m=494788722&s=612x612&w=0&h=tvRJYTZ_3S0lZkzqZuATGZYPwrur3idQVuJpBgEuk1s=",
+        "nutritionalValue": {
+            "calories": "377 kCal",
+            "totalFat": "21 gm",
+            "cholesterol": "126 mg",
+            "sodium": "118 mg",
+            "potassium": "328 mg",
+            "carbohydrate": "4.4 gm",
+            "dietaryFiber": "0.1 gm",
+            "sugars": "0 gm",
+            "protein": "40 gm"
+        },
+    "Type":[
+            "lunch", 
+            "dinner"],
+    "description": "Get the authentic southern taste in our hot, crispy fried chicken."
+    },
+
+
+    {
+        "foodName": "Mac & Cheese",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/delish-210608-millie-peartree-mac-and-cheese-351-vertical-macro-v1-eb-1631547578.jpg",
+        "nutritionalValue": {
+            "calories": "376 kCal",
+            "totalFat": "16 gm",
+            "cholesterol": "5.9 mg",
+            "sodium": "669 mg",
+            "potassium": "255 mg",
+            "carbohydrate": "47 gm",
+            "dietaryFiber": "2.4 gm",
+            "sugars": "8.5 gm",
+            "protein": "9.7 gm"
+        },
+    "Type":[
+            "lunch", 
+            "dinner"],
+    "description": "Tasty macaroni mixed with creamy cheese sprinkled with fresh herbs."
+    },
+
+    {
+        "foodName": "Roasted Pork",
+        "image": "https://diethood.com/wp-content/uploads/2019/09/Roasted-Pork-Loin-4.jpg",
+        "nutritionalValue": {
+            "quantity": "100 gm",
+            "calories": "297 kCal",
+            "totalFat": "20.8 gm",
+            "carbohydrate": "0 gm",
+            "dietaryFiber": "0 gm",
+            "sugars": "0 gm",
+            "protein": "25.7 gm"
+        },
+    "Type":[
+            "lunch", 
+            "dinner"],
+    "description": "Smoked, roasted pork with thick and rich gravy"
+    },
+
+    {
+        "foodName": "Steak",
+        "image": "https://media.istockphoto.com/photos/grilled-striploin-steak-picture-id535786572?k=20&m=535786572&s=612x612&w=0&h=WAOuIsIUQB7zVW23C6MX9y5QCyl6KLPL2eYcOcc_Qdk=",
+        "nutritionalValue": {
+            "quantity": "100 gm",
+            "calories": "217 kCal",
+            "totalFat": "11.8 gm",
+            "carbohydrate": "0 gm",
+            "fiber": "0 gm",
+            "sugars": "0 gm",
+            "protein": "26.1 gm"
+        },
+    "Type":[
+            "lunch", 
+            "dinner"],
+    "description": "Tender steak engulfed with thick, creamy gravy and seasoned with spices."
+    },
+
+    {
+        "foodName": "Chicken Nuggets",
+        "image": "https://bakeitwithlove.com/wp-content/uploads/2021/05/Air-Fryer-Chicken-Nuggets-sq.jpg",
+        "nutritionalValue": {
+            "quantity": "8 piece",
+            "calories": "392 kCal",
+            "totalFat": "26.4 gm",
+            "cholesterol": "70.4 mg",
+            "sodium": "760 mg",
+            "potassium": "320 mg",
+            "carbohydrate": "19.2 gm",
+            "fiber": "1.1 gm",
+            "sugars": "0.1 gm",
+            "protein": "20 gm"
+        },
+    "Type":[
+            "lunch", 
+            "dinner"],
+    "description": "Soft chicken nuggets good to go with ketchup, mayo, and salsa."
+    },
+
+    {
+        "foodName": "Meatballs",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/italian-meatballs-329-1547011036.jpg",
+        "nutritionalValue": {
+            "calories": "284 kCal",
+            "totalFat": "13 gm",
+            "sodium": "792 mg",
+            "carbohydrate": "12 gm",
+            "fiber": "6.6 gm",
+            "sugars": "1.8 gm",
+            "protein": "30 gm",
+            "potassium": "259 mg",
+            "calcium": "36 mg",
+            "iron": "3.1 mg"
+        },
+    "Type":[
+            "lunch", 
+            "dinner"],
+    "description": "Meatballs drenched in marinara sauce with italian seasoning sprinkled on top."
+    },
+
+    {
+        "foodName": "Spaghetti",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/homemade-spaghetti-sauce-horizontal-1530890913.jpg",
+        "nutritionalValue": {
+            "quantity": "140 gm",
+            "calories": "221 kCal",
+            "totalFat": "1.3 gm",
+            "sodium": "1 mg",
+            "carbohydrate": "43.2 gm",
+            "fiber": "2.5 gm",
+            "sugars": "0.8 gm",
+            "protein": "8.1 gm"
+        },
+    "Type":[
+            "lunch", 
+            "dinner"],
+    "description": "Spaghetti cooked in marinara sauce, onions, bell peppers, spices, and topped with herbs like coriander, oregano, etc."
+    },
+
+    {
+        "foodName": "Pasta",
+        "image": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "nutritionalValue": {
+            "calories": "196 kCal",
+            "totalFat": "1.2 gm",
+            "cholesterol": "0 mg",
+            "sodium": "1.2 mg",
+            "potassium": "55 mg",
+            "carbohydrate": "38 gm",
+            "fiber": "2.2 gm",
+            "sugars": "0.7 gm",
+            "protein": "7.2 gm"
+        },
+    "Type":[
+            "lunch", 
+            "dinner"],
+    "description": "We make tasty pasta as italians do. Don't believe us? Try once!"
+    },
+
+    
+    {
+        "foodName": "Spinach",
+        "image": "https://www.thespruceeats.com/thmb/b4um2N6sTZYS96537utzgnobB8U=/4200x2362/smart/filters:no_upscale()/sauteed-spinach-2217337-hero-01-2-646973607c564a6ba802061b81d6974c.jpg",
+        "nutritionalValue": {
+            "calories": "41 kCal",
+            "totalFat": "0.5 gm",
+            "cholesterol": "0 mg",
+            "sodium": "551 mg",
+            "potassium": "839 mg",
+            "carbohydrate": "6.8 gm",
+            "fiber": "4.3 gm",
+            "sugars": "0.8 gm",
+            "protein": "5.3 gm"
+        },
+    "Type":[
+            "lunch", 
+            "dinner"],
+    "description": "Boiled and sautéed spinach lightly dressed with olive oil, seasonings, salt, and vinegar."
+    },
+
+    {
+        "foodName": "Chickpeas",
+        "image": "https://feelgoodfoodie.net/wp-content/uploads/2020/02/how-to-cook-chickpeas-26-500x375.jpg",
+        "nutritionalValue": {
+            "calories": "229 kCal",
+            "totalFat": "3.8 gm",
+            "sodium": "322 mg",
+            "carbohydrate": "35 gm",
+            "fiber": "9.6 gm",
+            "sugars": "6 gm",
+            "protein": "10.7 gm"
+        },
+    "Type":[
+            "lunch", 
+            "dinner"],
+    "description": "Lightly seasoned boiled chickpeas to go with fried chicken and spinach"
+    },
+
+    {
+        "foodName": "Red and Black Beans",
+        "image": "https://www.closetcooking.com/wp-content/uploads/2009/04/Black-Bean-and-Roasted-Pepper-Soup-500.jpg",
+        "nutritionalValue": {
+            "calories": "114 kCal",
+            "totalFat": "0 gm",
+            "carbohydrate": "20 gm",
+            "fiber": "7 gm",
+            "sugars": "0 gm",
+            "protein": "8 gm"
+        },
+    "Type":[
+            "lunch", 
+            "dinner"],
+    "description": "Highly nutritious mixed red and black beans cooked with spices and seasonings"
+    },
+
+
+    {
+        "foodName": "Corn Bread",
+        "image": "https://www.fifteenspatulas.com/wp-content/uploads/2021/09/Homemade-Cornbread-1-500x500.jpg",
+        "nutritionalValue": {
+            "calories": "94 kCal",
+            "totalFat": "2.7 gm",
+            "cholesterol": "16 mg",
+            "sodium": "170 mg",
+            "potassium": "38 mg",
+            "carbohydrate": "15 gm",
+            "fiber": "0.7 gm",
+            "sugars": "4.6 gm",
+            "protein": "1.9 gm"
+        },
+    "Type":[
+            "lunch", 
+            "dinner"],
+    "description": "Complete your meal with mildly sweet corn bread."
+    },
+
+    {
+        "foodName": "French Toast",
+        "image": "https://www.thespruceeats.com/thmb/aVlfT8e9cGZqBgnZN0508XLduIg=/4048x2277/smart/filters:no_upscale()/french-toast-481660-Hero-1-69d27bf922084a5a9b9b7fb680b082b2.jpg",
+        "nutritionalValue": {
+            "calories": "219 kCal",
+            "totalFat": "11 gm",
+            "cholesterol": "129 mg",
+            "sodium": "237 mg",
+            "potassium": "97 mg",
+            "carbohydrate": "23 gm",
+            "fiber": "1.1 gm",
+            "sugars": "4 gm",
+            "protein": "7.3 gm"
+        },
+    "Type":[
+            "breakfast"
+        ],
+    "description": "Compliment your tasty, fluffy french toast with sweet maple syrup and fruits"
+    },
+
+    {
+        "foodName": "Scrambled Eggs",
+        "image": "https://www.jessicagavin.com/wp-content/uploads/2020/09/how-to-make-scrambled-eggs-hard-5-1200-500x500.jpg",
+        "nutritionalValue": {
+            "calories": "91 kCal",
+            "totalFat": "6.7 gm",
+            "cholesterol": "169 mg",
+            "sodium": "88 mg",
+            "potassium": "81 mg",
+            "carbohydrate": "1 gm",
+            "fiber": "0 gm",
+            "sugars": "0.8 gm",
+            "protein": "6.1 gm"
+        },
+    "Type":[
+            "breakfast"
+        ],
+    "description": "Fill your tummy with our plain but delicious scrambled eggs"
+    },
+
+    {
+        "foodName": "Cheesy Scrambled Eggs",
+        "image": "https://pinchofyum.com/wp-content/uploads/Soft-Scrambled-Eggs-Recipe.jpg",
+        "nutritionalValue": {
+            "calories": "123 kCal",
+            "totalFat": "9.4 gm",
+            "cholesterol": "177 mg",
+            "sodium": "141 mg",
+            "potassium": "87 mg",
+            "carbohydrate": "1.2 gm",
+            "fiber": "0 gm",
+            "sugars": "0.9 gm",
+            "protein": "7.9 gm"
+        },
+    "Type":[
+            "breakfast"
+        ],
+    "description": "Scrambled eggs with cheese - perfect combination for a happy tummy."
+    },
+
+    {
+        "foodName": "Hash Browns",
+        "image": "https://static.toiimg.com/thumb/53870279.cms?width=1200&height=900",
+        "nutritionalValue": {
+            "calories": "144 kCal",
+            "totalFat": "9 gm",
+            "cholesterol": "0 mg",
+            "sodium": "300 mg",
+            "potassium": "188 mg",
+            "carbohydrate": "15 gm",
+            "fiber": "1.4 gm",
+            "sugars": "0.3 gm",
+            "protein": "1.4 gm",
+            "iron": "1.8 %",
+            "calcium": "0.8 %",
+            "vitaminA": "0 %",
+            "vitaminC": "4.8 %"
+        },
+    "Type":[
+            "breakfast"
+        ],
+    "description": "Hash browns made with potatoes and a tinge of salt and grounded pepper"
+    },
+
+    {
+        "foodName": "Bacon",
+        "image": "https://golf.com/wp-content/uploads/2021/01/bacon.jpg",
+        "nutritionalValue": {
+            "servingQuantity": "2 pieces",
+            "calories": "107 kCal",
+            "totalFat": "8 gm",
+            "sodium": "386 mg",
+            "carbohydrate": "0.4 gm",
+            "fiber": "0 gm",
+            "sugars": "0.9 gm",
+            "protein": "8 gm"
+        },
+    "Type":[
+            "breakfast"
+        ],
+    "description": "Crispy turkey and pork bacon prepared in light oil"
+    },
+
+
+    {
+        "foodName": "Veggie Sausage Patties",
+        "image": "https://airfryer.cooking/wp-content/uploads/2021/03/airfryer_veggie_sausages.jpg",
+        "nutritionalValue": {
+            "calories": "80 kCal",
+            "totalFat": "3 gm",
+            "cholesterol": "0 mg",
+            "sodium": "260 mg",
+            "potassium": "87 mg",
+            "carbohydrate": "120 mg",
+            "fiber": "1 gm",
+            "sugars": "0.32 gm",
+            "protein": "10 gm"
+        },
+    "Type":[
+            "breakfast"
+        ],
+    "description": "Air fried veggie sausage patties mixed with special herbs to please our vegans"
+    },
+
+    {
+        "foodName": "Pork Sausage",
+        "image": "https://dexam.co.uk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/e/recipe-image-sausages.jpg",
+        "nutritionalValue": {
+            "calories": "75 kCal",
+            "totalFat": "6.5 gm",
+            "cholesterol": "20 mg",
+            "sodium": "187 mg",
+            "potassium": "78.5 mg",
+            "carbohydrate": "0.3 mg",
+            "fiber": "0 gm",
+            "sugars": "0.3 gm",
+            "protein": "4.3 gm"
+        },
+    "Type":[
+            "breakfast"
+        ],
+    "description": "Add succulent, juicy, and mildly spicy pork sausage on your food platter"
+    },
+
+    {
+        "foodName": "Turkey Sausage",
+        "image": "https://thecookful.com/wp-content/uploads/2021/03/Italian-Turkey-Sausages-google.jpg",
+        "nutritionalValue": {
+            "calories": "147 kCal",
+            "totalFat": "7.8 gm",
+            "cholesterol": "69 mg",
+            "sodium": "499 mg",
+            "potassium": "224 mg",
+            "carbohydrate": "0 mg",
+            "fiber": "0 gm",
+            "sugars": "0 gm",
+            "protein": "18 gm"
+        },
+    "Type":[
+            "breakfast"
+        ],
+    "description": "Tender enough to melt in your mouth and excite your tastebuds"
+    },
+
+
+    {
+        "foodName": "Chicken Sausage",
+        "image": "https://farm7.static.flickr.com/6162/6161200562_65afb6d210_b.jpg",
+        "nutritionalValue": {
+            "calories": "147 kCal",
+            "totalFat": "7.8 gm",
+            "cholesterol": "69 mg",
+            "fiber": "0 gm",
+            "sugars": "0 gm",
+            "protein": "18 gm",
+            "sodium": "499 mg",
+            "potassium": "224 mg",
+            "carbohydrate": "0 mg",
+            "iron": "6.2 %",
+            "calcium": "1.3 %",
+            "vitaminA": "1.1 %",
+            "vitaminC": "0.9 %"
+        },
+    "Type":[
+            "breakfast"
+        ],
+    "description": "Just another delicious sausage we serve, but made from chicken."
+    }   
+]
+
