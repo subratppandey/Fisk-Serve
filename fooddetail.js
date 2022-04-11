@@ -1,6 +1,6 @@
 const realContainer = document.querySelector(".container");
  console.log(realContainer);
-fetch("https://raw.githubusercontent.com/subratppandey/JSON-data-file/master/data.json")
+fetch("https://raw.githubusercontent.com/ArunGiri392/FiskServe/dev/data.json")
 .then(response => response.json())
 .then((data) => {
     updatedata(data);

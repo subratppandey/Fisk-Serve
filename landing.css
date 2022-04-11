@@ -239,16 +239,13 @@ button a{
       transform: translateX(-135%);
     }
   }
-  
 
+ 
 
-
-
-
-
-
-
-
+  .card-img-top:hover{
+    transform: scale(1.05);
+    transition: transform .5s;
+  }
 
 .meal{
     height: 50px;
