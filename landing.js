@@ -1,7 +1,5 @@
 const realContainer = document.querySelector("#resultant");
-const button = document.querySelector(".button");
 const input = document.querySelector("#fname");
-console.log(input);
 const landingPageContainer = document.querySelector(".main")
 
 var myData = [];
