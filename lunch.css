@@ -1,3 +1,15 @@
+body{
+    margin: 0;
+    background-image: url(/images/background_img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  left;
+    
+
+    
+    
+
+}
 .container{
     display:flex;
     justify-content:space-evenly;
@@ -30,3 +42,10 @@ img{
     width:250px;
     height:180px;
 }
+
+
+
+.card-img-top:hover{
+    transform: scale(1.05);
+    transition: transform .5s;
+  }

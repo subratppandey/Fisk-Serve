@@ -28,7 +28,6 @@ function updatedata(data) {
                         <h5 class="card-title">${value.foodName}</h5>
                         <p class="card-text">${value.description}</p>
                     </div>
-                    input
                 </div>
             </div>`;
          allCardsDom +=cardTemplate;
