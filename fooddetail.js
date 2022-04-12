@@ -24,7 +24,9 @@ function updatedata(data) {
         if (value.foodName === params.type){
         // console.log(value.Type);
         const cardTemplate = 
-        ` <div class = "img">
+        ` 
+        <div class = "see">
+        <div class = "img">
         <img src="${value.image}">
         </div>
 
@@ -49,21 +51,33 @@ function updatedata(data) {
             <table style="width:100%">
                 <tr>
                   <td>Protein</td>
-                  <td>Carbohydrates</td>
-                  <td>Fat</td>
-                  <td>Calories</td>
-                  <td>Sodium</td>
+                  <td>${value.nutritionalValue.calories}</td>
                 </tr>
 
                 <tr>
-                  <td>${value.nutritionalValue.calories}</td>
-                  <td>${value.nutritionalValue.carbohydrate}</td>
-                  <td>${value.nutritionalValue.totalFat}</td>
-                  <td>${value.nutritionalValue.calories}</td>
-                  <td>${value.nutritionalValue.sodium}</td>
+                    <td>Carbohydrates</td>
+                    <td>${value.nutritionalValue.carbohydrate}</td>
+                </tr>
+
+                <tr>
+                    <td>Fat</td>
+                    <td>${value.nutritionalValue.totalFat}</td>
+                </tr>
+
+                <tr>
+                    <td>Calories</td>
+                    <td>${value.nutritionalValue.calories}</td>
+                </tr>
+
+                <tr>
+
+                    <td>Sodium</td>
+                    <td>${value.nutritionalValue.sodium}</td>
                 </tr>
               </table>
           
+        </div>
+
         </div>
             
         </div>
