@@ -42,3 +42,10 @@ img{
     width:250px;
     height:180px;
 }
+
+
+
+.card-img-top:hover{
+    transform: scale(1.05);
+    transition: transform .5s;
+  }
