@@ -7,6 +7,7 @@ fetch("https://raw.githubusercontent.com/ArunGiri392/FiskServe/dev/data.json")
     
 });
 
+//code to get the value passed from link passed from HTML.
 const urlSearchParams = new URLSearchParams(window.location.search);
 const params = Object.fromEntries(urlSearchParams.entries());
 
@@ -16,14 +17,8 @@ function updatedata(data) {
     
     
     data.forEach((value)=>{
-        // console.log(params.type);
-        // console.log(value.foodName);
-        // console.log(value.nutritionalValue.calories);
-        // console.log(value.Type.includes(params.type));
-
-        if (value.foodName === params.type){
-        // console.log(value.Type);
-        const cardTemplate = 
+       if (value.foodName === params.type){
+       const cardTemplate = 
         ` 
         <div class = "see">
         <div class = "img">
