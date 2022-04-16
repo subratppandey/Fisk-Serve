@@ -336,7 +336,7 @@ input{
   }
 
   .button{
-    background-color: red;
+    /* background-color:green; */
     border-radius: 10px;
     height: 40px;
     width: 80px;

@@ -1,6 +1,8 @@
 const realContainer = document.querySelector("#resultant");
 const input = document.querySelector("#fname");
-const landingPageContainer = document.querySelector(".main")
+const mobilebutton = document.querySelector(".button");
+console.log(mobilebutton);
+const landingPageContainer = document.querySelector(".main");
 
 var myData = [];
 fetch("https://raw.githubusercontent.com/ArunGiri392/FiskServe/dev/data.json")
@@ -124,7 +126,8 @@ input.addEventListener('keypress',function(e){
 
 });
 
-
+//adding the search option in the mobile view.
+mobilebutton.addEventListener('click',myfunction)
 
 
 //function for the event clicker.
